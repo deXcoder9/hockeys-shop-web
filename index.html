@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey's Time</title>
+    <link rel="shortcut icon" href="https://www.hockeyworld.com/static/images/favicon.ico">
     <!-- tailwind css and daisy ui -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
@@ -60,7 +61,7 @@
   </head>
   <body>
     <div class="vessel">
-      <header class="md:hidden lg:block">
+      <header class="">
         <nav class="mt-3">
           <div class="navbar flex">
             <div class="navbar-start">
@@ -105,7 +106,7 @@
               >
                 <li>
                   <a>
-                    <p class="mb-1">Home</p>
+                    <p class="mb-1 text-red-700">Home</p>
                   </a>
                 </li>
                 <li>
@@ -131,6 +132,7 @@
               </ul>
             </div>
             <div class="navbar-end">
+                <i class="fa-solid fa-magnifying-glass hidden lg:block mr-5" style="color: #a0a6b1;"></i>
               <a class="btn__primary font-bold">Get Ticket</a>
             </div>
           </div>
@@ -173,8 +175,8 @@
         </div>
       </header>
 
-      <main class="px-4 md:hidden lg:block">
-        <section id="professional__hockeys__club">
+      <main class="px-4  ">
+        <section id="professional__hockeys__club" class="mt-36">
           <div
             class="common_used_heading text-center max-w-[680px] mx-auto mt-20"
           >
@@ -249,7 +251,7 @@
             </div>
           </div>
         </section>
-        <section id="program__sections">
+        <section id="program__sections"  class="mt-36">
           <div
             class="common_used_heading text-center max-w-[680px] mx-auto mt-20"
           >
@@ -327,7 +329,7 @@
             </div>
           </div>
         </section>
-        <section id="out__new__products">
+        <section id="out__new__products" class="mt-36">
           <div
             class="common_used_heading text-center max-w-[680px] mx-auto mt-20"
           >
@@ -586,7 +588,7 @@
             <!-- produvts gallery end -->
           </div>
         </section>
-        <section id="clients__questions">
+        <section id="clients__questions" class="mt-36">
           <div
             class="common_used_heading text-center max-w-[680px] mx-auto mt-20"
           >
@@ -710,7 +712,7 @@
             </div>
           </div>
         </section>
-        <section id="get__in__touch">
+        <section id="get__in__touch" class="mt-36">
             <div class="common_used_heading text-center max-w-[680px] mx-auto mt-20">
                 <h1 class="text-2xl lg:text-4xl font_garamond font-extrabold">Get In Touch</h1>
                 <p class="text-[#707070] font_poppins pt-4">Connect with us! Reach out through our 'Get In Touch' section for inquiries, feedback, or collaboration opportunities. We value your input and look forward to hearing from you.</p>
@@ -738,7 +740,7 @@
 
 
                 <div id="fill__up" class="max-w-[650px] mx-auto space-y-10 gird place-items-center mt-5 p-5 flex-1 w-full">
-                    <div class="flex gap-x-7 space-y-3  flex-col lg:flex-row ">
+                    <div class="flex gap-x-7 space-y-3 lg:space-y-0  flex-col lg:flex-row ">
                         <div class="flex-1 ">
                             <h3 class="font-bold text-xl pb-3">Your Name</h3>
                             <input type="text" class="h-12 md:h-16 px-5 bg-[#F3F3F3] rounded-lg w-full" placeholder="Enter your full name">
@@ -749,7 +751,7 @@
                         </div>
 
                     </div>
-                    <div class="flex gap-x-7 flex-col lg:flex-row space-y-7 ">
+                    <div class="flex gap-x-7 flex-col lg:flex-row space-y-7 lg:space-y-0">
                         <div class="flex-1">
                             <h3 class="font-bold text-xl pb-3">Subject</h3>
                     <input type="text" class="h-12 md:h-16 px-5 bg-[#F3F3F3] rounded-lg w-full" placeholder="Enter your subject">
